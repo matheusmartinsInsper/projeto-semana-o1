@@ -156,7 +156,7 @@ h4 {
   border: none;
   border-radius: 20px;
   background-color: #dbdcdf;
-  width: 406px;
+  width: 100%;
   height: 35px;
   margin-bottom: 15px;
   padding-left: 20px;
@@ -171,7 +171,7 @@ h4 {
   grid-template-columns: auto auto auto auto;
   align-items: center;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .contatositems {
   display: flex;
@@ -181,4 +181,45 @@ h4 {
 .contatositems i {
   font-size: 28px;
   margin-right: 15px;
+}
+@media only screen and (max-width: 420px) {
+  body {
+    margin: 0px 20px;
+  }
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+  #headerContent {
+    display: flex;
+    align-items: center;
+  }
+  #headerContent li {
+    margin: 0px 40px;
+  }
+  #apresentation {
+    display: flex;
+    flex-direction: column;
+  }
+  #clientes div,
+  h3 {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  .clienteitems i {
+    font-size: 20px;
+  }
+  .clienteitems h5 {
+    font-size: 20px;
+  }
+  .clienteitems {
+    margin: 0px 10px;
+  }
+  #forms {
+    display: flex;
+    flex-direction: column;
+  }
+  #formsright {
+    padding: 100px 0px 0px 0px;
+  }
 }
