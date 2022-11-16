@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0px 80px;
   font-family: "Nunito", sans-serif;
@@ -221,5 +224,24 @@ h4 {
   }
   #formsright {
     padding: 100px 0px 0px 0px;
+  }
+  #formsright input {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: -19px;
+  }
+  #contatos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  #contato {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  #contato h3 {
+    font-size: 25px;
   }
 }
